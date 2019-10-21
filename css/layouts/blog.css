@@ -21,6 +21,12 @@ ul.news {
 li.news {
   margin-bottom: 0px; 
 }
+p {
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.0em;
+}
 p.news {
   text-align: justify;
   margin-top: 0px; 
@@ -115,6 +121,7 @@ p.news {
     margin-bottom: 0.2em;
 }
 .paper-box {
+    text-align: justify;
     position:relative;
     overflow: hidden;
     *zoom: 1;
@@ -135,6 +142,7 @@ ul.paper-list {
     *zoom: 1;
 }
 .paper-info-box {
+    font-size: 0.9em;
     padding-left: 40px;
     width: 95%;
     margin:0px;
@@ -171,7 +179,7 @@ img.post-thumbnail {
     margin: 1em;
 }
 .paper-title {
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 .post-meta {
     color: #999;
